@@ -1,0 +1,23 @@
+{
+  "name": "cumulativefinalproject",
+  "version": "1.0.0",
+  "description": "CumulativeFP",
+  "homepage": "https://github.com/JarvisAppleSlice/CumulativeFinalProject#readme",
+  "bugs": {
+    "url": "https://github.com/JarvisAppleSlice/CumulativeFinalProject/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JarvisAppleSlice/CumulativeFinalProject.git"
+  },
+  "license": "ISC",
+  "author": "SJarvis",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test"
+  },
+  "devDependencies": {
+    "cypress": "^15.13.0"
+  }
+}
