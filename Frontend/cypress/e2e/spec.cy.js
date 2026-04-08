@@ -18,7 +18,7 @@ describe("testimonials", () => {
 		cy.get("form").should("be.visible");
 		cy.get('form input[name="feedback"]').should("be.visible").type(feedback);
 		cy.get('form input[name="rating"][type="number"]').should("be.visible").type(rating);
-		cy.get("form submit")
+		cy.get('form button[type="submit"]')
 			.should("be.visible")
 			.and("have.text", "Create Testimonial")
 			.click();
